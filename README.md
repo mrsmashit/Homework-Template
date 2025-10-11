@@ -41,7 +41,8 @@ This LaTeX class is provided under the MIT License. Feel free to modify and dist
 
 ## Author
 
-[Madhav Ramesh]
+- Madhav Ramesh
+- Madhusudan Singh
 
 ## Acknowledgments
 

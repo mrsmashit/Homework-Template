@@ -25,7 +25,7 @@
 \newcommand{\@semester}{{\em No semester specified}}
 \newcommand{\@student}{{\em Student unknown}}
 \newcommand{\@subject}{}
-\newcommand{\@university}{University of Buffalo}
+\newcommand{\@university}{University at Buffalo}
 \newcommand{\@school}{Department of Electrical Engineering}
 \newcommand{\solutionstext}{\bfseries (Solutions)}
 \newcommand{\coursetitle}[1]{\renewcommand{\@coursetitle}{{#1}}}
