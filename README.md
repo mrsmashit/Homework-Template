@@ -39,7 +39,7 @@ pdflatex your-homework.tex
 
 This LaTeX class is provided under the MIT License. Feel free to modify and distribute it according to your needs.
 
-## Author
+## Authors
 
 - Madhav Ramesh
 - Madhusudan Singh
