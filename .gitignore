@@ -1,0 +1,52 @@
+# LaTeX temporary files
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.fls
+*.out
+*.synctex.gz
+*.fdb_latexmk
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+
+# PDF output
+*.pdf
+
+# BibTeX
+*.bib.bak
+*.bib.sav
+
+# Editor temporary files
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Package specific
+_minted*/
+*.pyg
+
+# Backup files
+*.bak
+*.sav
+*.backup
+
+# Build directory
+build/
+dist/
