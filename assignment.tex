@@ -11,6 +11,7 @@
 \usepackage{graphicx} % Required for including images
 \usepackage{caption}  % better captions
 \usepackage{float}    % precise figure placement
+\usepackage{booktabs} % Professional table formatting
 
 % Page setup
 \geometry{margin=1in}
@@ -73,6 +74,8 @@ We compute
 \]
 \end{solution}
 
+\newpage
+
 Here is an example image (Figure~\ref{fig:example}).
 
 \begin{figure}[H] % H = force placement (needs float package)
@@ -81,5 +84,22 @@ Here is an example image (Figure~\ref{fig:example}).
     \caption{An example image.}
     \label{fig:example}
 \end{figure}
+
+Here is an example table (Table~\ref{table:curr_rect_params}).
+
+\begin{table}[H]
+    \caption{Current rectangular parameters.}
+    \label{table:curr_rect_params}
+    \centering
+    \begin{tabular}{ccccccccc}
+        \toprule
+        $P_o$&$Q_o$&$ r $&$H_1$, $H_2$&$U_{extra}$&$B_{L}$&$B_o$, $K_b$&$M$&$Y_s$    \\
+        \text{[mm]}&[cm]&[hPa]&Ion Number&[Energy]&[Universe]&[QQQ]&[AK]&[AQ]    \\
+        \midrule
+        500&100&27.12&\textit{ABCDEFG}&26&5&6&498&333 \\
+        \bottomrule
+    \end{tabular}
+    \vspace{-10pt}
+\end{table}
 
 \end{document}
